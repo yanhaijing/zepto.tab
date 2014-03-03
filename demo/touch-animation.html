@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8">
+
+		<!-- Always force latest IE rendering engine (even in intranet) & Chrome Frame
+		Remove this if you use the .htaccess -->
+		<meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1">
+
+		<title>touch-animation.html</title>
+		<meta name="description" content="">
+		<meta name="author" content="YANXUEFENG">
+
+		<meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+		<!-- Replace favicon.ico & apple-touch-icon.png in the root of your domain and delete these references -->
+		<link rel="shortcut icon" href="/favicon.ico">
+		<link rel="apple-touch-icon" href="/apple-touch-icon.png">
+		<link rel="stylesheet" href="../build/zepto.tab-min.css" />
+		<link rel="stylesheet" href="css/style.css" />
+	</head>
+
+	<body>
+		<div>
+			<h1>当手指滑动时有动画效果</h1>
+			<strong>代码如下</strong>
+			<code>
+				<pre>				
+$(function () {
+	$(".js-tab").tab({
+		touchAnimation: true
+	});
+});				
+				</pre>
+			</code>
+		</div>
+		<div class="tab js-tab">
+			<ul class="tab-nav js-tab-header">
+				<li class="cur">1</li>
+				<li>2</li>
+				<li>3</li>
+			</ul>
+			<ul class="tab-body js-tab-body">
+				<li>
+					<p>　　111据每日邮报2月24日报道，一只美洲豹闯入了印度北部的一座城市，造成至少2人受伤，引发了当地的恐慌。“尽管我们尽了最大努力，但我们现在已经无法追踪到它的动向了，目前我们已经展开了大规模的追捕。”当地的一名官员说。图为追捕人员用棍子击打豹子。据悉在，这只豹子在该城市中先后闯入了医院、电影院以及一栋公寓楼。</p>
+				</li>
+				<li>
+					<p>　　222据每日邮报2月24日报道，一只美洲豹闯入了印度北部的一座城市，造成至少2人受伤，引发了当地的恐慌。“尽管我们尽了最大努力，但我们现在已经无法追踪到它的动向了，目前我们已经展开了大规模的追捕。”当地的一名官员说。图为追捕人员用棍子击打豹子。据悉在，这只豹子在该城市中先后闯入了医院、电影院以及一栋公寓楼。</p>
+				</li>
+				<li>
+					<p>　　333据每日邮报2月24日报道，一只美洲豹闯入了印度北部的一座城市，造成至少2人受伤，引发了当地的恐慌。“尽管我们尽了最大努力，但我们现在已经无法追踪到它的动向了，目前我们已经展开了大规模的追捕。”当地的一名官员说。图为追捕人员用棍子击打豹子。据悉在，这只豹子在该城市中先后闯入了医院、电影院以及一栋公寓楼。</p>
+				</li>
+			</ul>
+		</div>				
+		<script src="js/zepto.js"></script>
+		<script src="../build/zepto.tab-min.js"></script>
+		<script>
+			$(function () {
+				$(".js-tab").tab({
+					touchAnimation: true
+				});
+			});
+		</script>
+	</body>
+</html>
