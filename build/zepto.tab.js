@@ -1,7 +1,7 @@
 /*!
 zepto.tab.js v1.0.0 yanhaijing.com license.txt
 */
-/* Build time: March 3, 2014 05:51:26 */
+/* Build time: July 17, 2014 04:55:43 */
 /**
  * zepto.tab.js
  * @author yanxuefeng
@@ -70,7 +70,7 @@ zepto.tab.js v1.0.0 yanhaijing.com license.txt
 				change(curIndex - 1);
 			});
 			
-			//判断是否有触摸动画效�?
+			//判断是否有触摸动画效�? 
 			if (o.touchAnimation) {
 				$tabBodyWrap.on("touchstart", function (e) {
 					var touch;

@@ -1,11 +1,11 @@
-#zepto.tab.js
-zepto.tab.js 是一款支持触摸屏下的tab插件，依赖zepto.js
+#zepto.tab
+zepto.tab 是一款支持触摸屏下的tab插件，依赖zepto.js
 
 ##Platform
 和zepto支持的平台一样
 
 ##Depend
-依赖zeptov1.0.0+，除默认模块还需touch模块支持
+依赖zepto v1.0.0+，除默认模块还需touch模块支持
 
 ##Building
 构建过程使用ant，安装ant参照[这里](http://ant.apache.org/manual/install.html)
@@ -22,7 +22,7 @@ zepto.tab.js 是一款支持触摸屏下的tab插件，依赖zepto.js
 - [Blog](http://yanhaijing.com "yanhaijing's Blog")
 
 ##Issues
-- [report question](https://github.com/yanhaijing/zepto.tab.js/issues "report question")
+- [report question](https://github.com/yanhaijing/zepto.tab/issues "report question")
 
 ##Copyright and license
 Copyright © 2013 yanhaijing. All Rights Reserved
