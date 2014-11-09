@@ -1,4 +1,4 @@
-#zepto.tab
+#zepto.tab [![license](http://img.shields.io/npm/l/express.svg)](https://github.com/yanhaijing/zepto.tab/blob/master/license.txt)
 zepto.tab 是一款支持触摸屏下的tab插件，依赖zepto.js
 
 ##Platform
